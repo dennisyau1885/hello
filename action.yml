@@ -16,4 +16,4 @@ jobs:
 
     steps:
       - name: hello
-        cmd: echo 'hello ${{ inputs.person }}'
+        cmd: echo 'hello ' ${{ inputs.person }}
