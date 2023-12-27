@@ -14,3 +14,7 @@ runs:
     - name: hello
       shell: bash
       run: echo "hello $INPUT_PERSON"
+
+    - name: env
+      shell: bash
+      run: env
