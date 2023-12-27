@@ -15,6 +15,3 @@ runs:
       shell: bash
       run: echo hello ${{ inputs.person }}
 
-    - name: env
-      shell: bash
-      run: env
