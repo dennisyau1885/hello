@@ -13,5 +13,5 @@ runs:
   steps:
     - name: hello
       shell: bash
-      run: echo hello ${{ inputs.person }}
+      run: echo Hello ${{ inputs.person }}
 

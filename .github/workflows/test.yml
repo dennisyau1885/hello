@@ -20,3 +20,8 @@ jobs:
         with:
           person: 'bob'
 
+      - name: test workflow custom v2
+        uses: dennisyau1885/hello@v2
+        with:
+          person: 'baz'
+
