@@ -9,11 +9,11 @@ inputs:
     default: 'world'
 
 runs:
-  using: composite
+  using: 'composite'
   steps:
     - name: hello
       shell: bash
-      run: echo "hello $INPUT_PERSON"
+      run: echo hello ${{ inputs.person }}
 
     - name: env
       shell: bash
