@@ -9,6 +9,7 @@ inputs:
     default: 'world'
 
 runs:
+  using: composite
   steps:
     - name: hello
       shell: bash
