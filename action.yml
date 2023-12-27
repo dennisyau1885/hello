@@ -1,0 +1,19 @@
+
+name: hello action
+description: returns hello <person>, where peson is optional and defaults to world
+
+on:
+  workflow_call:
+    inputs:
+      person:
+    description: 'person to say hello to'
+      required: false
+      default: 'world'
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: hello
+        cmd: echo 'hello ${{ inputs.person }}'
