@@ -13,10 +13,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: test workflow default
-        uses: ./
+        uses: dennisyau1885/hello@v1
 
       - name: test workflow custom
-        uses: ./
+        uses: dennisyau1885/hello@v1
         with:
           person: 'bob'
 
