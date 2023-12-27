@@ -12,5 +12,11 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
 
-      - name: test workflow
-        uses: ./@main
+      - name: test workflow default
+        uses: dennisyau1885/hello@main
+
+      - name: test workflow custom
+        uses: dennisyau1885/hello@main
+        with:
+          person: 'bob'
+
