@@ -6,9 +6,9 @@ on:
   workflow_call:
     inputs:
       person:
-    description: 'person to say hello to'
-      required: false
-      default: 'world'
+        description: 'person to say hello to'
+        required: false
+        default: 'world'
 
 jobs:
   hello:
