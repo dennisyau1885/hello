@@ -14,4 +14,4 @@ jobs:
 
     steps:
       - name: hello
-        run: echo 'hello ' ${{ inputs.person }}
+        run: echo 'hello '
