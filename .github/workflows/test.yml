@@ -1,6 +1,9 @@
+name: test hello
+
 on:
   push:
-    - main
+    branches:
+      - main
 
 jobs:
   test:
